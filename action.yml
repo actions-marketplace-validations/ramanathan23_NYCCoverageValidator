@@ -4,6 +4,10 @@ inputs:
   threshold-pct:
     description: 'threshold percentage'
     required: true
+  path:
+    description: 'coverage folder path'
+    required: true
+    default: ${{ github.workspace }}
 outputs:
   status:
     description: 'output the status of coverage'
