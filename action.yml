@@ -1,0 +1,9 @@
+name: 'NYC Coverage Validator'
+description: 'Validates code coverage percentage'
+inputs:
+  threshold-pct: 80
+outputs:
+  status: true
+runs:
+  using: 'node16'
+  main: 'index.js'
